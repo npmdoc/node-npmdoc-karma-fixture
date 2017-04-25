@@ -1,4 +1,7 @@
-# api documentation for  [karma-fixture (v0.2.6)](https://github.com/billtrik/karma-fixture)  [![npm package](https://img.shields.io/npm/v/npmdoc-karma-fixture.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-karma-fixture) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-karma-fixture.svg)](https://travis-ci.org/npmdoc/node-npmdoc-karma-fixture)
+# npmdoc-karma-fixture
+
+#### basic api documentation for  [karma-fixture (v0.2.6)](https://github.com/billtrik/karma-fixture)  [![npm package](https://img.shields.io/npm/v/npmdoc-karma-fixture.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-karma-fixture) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-karma-fixture.svg)](https://travis-ci.org/npmdoc/node-npmdoc-karma-fixture)
+
 #### A plugin for the Karma test runner that loads .html and .json fixtures
 
 [![NPM](https://nodei.co/npm/karma-fixture.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/karma-fixture)
@@ -66,7 +69,8 @@
         "prepublish": "coffee -o lib -c src/*.coffee",
         "test": "node ./node_modules/karma/bin/karma start --single-run"
     },
-    "version": "0.2.6"
+    "version": "0.2.6",
+    "bin": {}
 }
 ```
 
